@@ -17,14 +17,14 @@ const Currency: any  =  {
 let user_answer = await inquirer.prompt(
     [
     {
-    name:"from",
+    name:"to",
     message:"Enter from Currency",
     type:"list",
     choices:['PKR','SAR','AED','AUD','CAD','INR','KWD','EUR','QAR','USD'],
 
     },
     {
-        name:"to",
+        name:"from",
         message:"Enter to Currency",
         type:"list",
         choices:['USD','SAR','AED','AUD','CAD','INR','KWD','EUR','QAR','PKR'],
