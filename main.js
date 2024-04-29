@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 const Currency = {
     PKR: 1, // base currency
